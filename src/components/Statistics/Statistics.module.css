@@ -1,0 +1,40 @@
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.item {
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.good {
+  background-color: lightgreen;
+  border-color: #04b904;
+}
+
+.neutral {
+  background-color: lightgray;
+  border-color: gray;
+}
+
+.bad {
+  background-color: rgb(252, 158, 179);
+  border-color: rgb(143, 27, 7);
+}
+
+.total {
+  background-color: lightblue;
+  border-color: blue;
+}
+
+.positive {
+  background-color: lightyellow;
+}

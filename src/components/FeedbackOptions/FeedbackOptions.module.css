@@ -1,0 +1,31 @@
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.button::first-letter {
+  text-transform: uppercase;
+}
+
+.activeButton {
+  background-color: #4caf50;
+  color: #fff;
+  border-color: #4caf50;
+}
+.list {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.item:not(:last-child) {
+  margin-right: 10px;
+}
